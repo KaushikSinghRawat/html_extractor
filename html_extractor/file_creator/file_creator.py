@@ -5,7 +5,7 @@ def file_creator(request, file_location = '.', file_name = 'new_data.txt', chara
         file.write(request.decode(character_encoding))
 
 
-file_name = 'astronauts_in_space.html' #name of file to be created | default = 'new_data.txt'
+file_name = 'new_data.html' #name of file to be created | default = 'new_data.html'
 file_location = '.' #location to store created data file | default = current directory
 character_encoding = 'utf-8' #character encoding for .decode() | default = utf-8
 
